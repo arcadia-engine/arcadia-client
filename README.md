@@ -1,11 +1,20 @@
 # Arcadia Client
 
-The standalone player client built on top of Arcadia Core.
+🖥️ Standalone game client built on Arcadia Core.
 
-Features:
-- Isometric or tile-based rendering
-- Player controls + camera
-- UI system (menus, inventory, chat)
-- Supports multiplayer via Arcadia Server
+Includes:
+- Tile-based world rendering
+- Camera system
+- UI framework (menus, inventory, dialog)
+- Interaction logic (hover, click, drag)
 
-Planned to be cross-platform and mod-friendly.
+### Future Goals
+- Multi-platform support (desktop / web)
+- Mod integration
+- In-game developer tools
+
+---
+
+## 🔗 Depends On
+- [`arcadia-core`](https://github.com/arcadia-engine/arcadia-core)
+- [`arcadia-server`](https://github.com/arcadia-engine/arcadia-server)
